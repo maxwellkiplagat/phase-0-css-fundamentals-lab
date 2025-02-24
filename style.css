@@ -3,3 +3,28 @@ body {
   height: 100%;
   margin: 0;
 }
+header{
+  justify-items: center;
+}
+#featured-property{
+  justify-items: center;
+}
+#featured-property > p:nth-child(2){
+  text-align: center;
+  width: 45%;
+  justify-content: center;
+
+}
+#featured-property > figure > figcaption{
+  text-align: center;
+  
+}
+#featured-property > p:nth-child(3){
+  text-align: center;
+  width: 45%
+}
+#details{
+  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
+}
